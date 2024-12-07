@@ -1,0 +1,208 @@
+:root {
+	--color-primary: #dc840d;
+	--color-primary-light: #f89f2a;
+	--color-secondary: #eee;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.header {
+}
+
+.header__container,
+.nav__list,
+.btn-box {
+}
+
+.nav__list {
+}
+
+.active {
+}
+
+.nav__list li {
+}
+
+.nav__list li:last-child {
+}
+
+.nav__list li:first-child {
+}
+
+.nav__search {
+}
+
+.search-icon,
+.search-input {
+}
+
+.search-icon {
+}
+
+.search-input {
+}
+
+.header__container {
+}
+
+.header__container > p {
+}
+
+.primary-heading {
+}
+
+.secondary-heading {
+}
+
+.btn-box {
+}
+
+.btn {
+}
+
+.btn:link,
+.btn:visited {
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+}
+
+section#section-menu {
+	.container {
+		.arrow-left,
+		.arrow-right {
+			img {
+			}
+		}
+
+		.container-menu {
+			&::-webkit-scrollbar {
+			}
+			.container-menu__item:hover {
+			}
+			.container-menu__item {
+				img.menu-image {
+				}
+				div.item-details {
+					div.item-details__labels {
+						.name {
+						}
+
+						.price {
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+section.overlay {
+	div.menu-item {
+		img.close {
+		}
+
+		div.content {
+			img.menu-pic {
+			}
+
+			div.details {
+				h2 {
+				}
+				p {
+				}
+
+				.actions {
+					.price {
+					}
+				}
+			}
+		}
+	}
+}
+
+button.btn {
+}
+
+button.btn-large {
+}
+
+button.btn:hover {
+}
+
+.about {
+}
+
+.about__img-box {
+}
+
+.about-img1 {
+}
+
+.about-img2 {
+}
+
+.about__description {
+}
+
+.about__description > h3 {
+}
+
+.about__description > p {
+}
+
+.about__description > p > span:not(:first-child) {
+}
+.checkmark {
+	color: var(--color-primary);
+}
+
+.btn-about:link,
+.btn-about:visited {
+}
+
+.gallery {
+}
+
+.gallery__row {
+	img {
+	}
+}
+
+.gallery__row > img {
+}
+
+.gallery__text {
+}
+
+.gallery__text > h3 {
+}
