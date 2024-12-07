@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/fav.icon.png" />
     <title>JaanRestaurant</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -12,7 +13,7 @@
         <ul class="nav__list">
           <li>
             JaanRestaurant<img
-              src="./img/burger_icon.png"
+              src="./assets/burger_icon.png"
               alt="icon"
               style="width: 30px; margin-left: 5px"
             />
@@ -49,18 +50,89 @@
 
     <main>
       <!-- JEFF SECTION -->
+      <section id="section-menu">
+        <div class="container">
+          <span class="arrow-left" id="arrow-left">
+            <img src="./assets/arrow-back.png" alt="Arrows" />
+          </span>
+          <div class="container-menu" id="container-menu">
+            <!-- <div class="container-menu__item">
+						<img
+							class="menu-image"
+							src="./assets/menu-4.jpg"
+							alt="Beautify plate of food"
+						/>
+						<div class="item-details">
+							<div class="item-details__labels">
+								<span class="name">Cheese and Charcu...</span>
+								<span class="price">$ 500</span>
+							</div>
+							<div class="item-details__labels">
+								<div class="rating">
+									<img src="./assets/star-fill.svg" alt="Stars" />
+									<img src="./assets/star-fill.svg" alt="Stars" />
+									<img src="./assets/star-fill.svg" alt="Stars" />
+									<img src="./assets/star.svg" alt="Stars" />
+									<img src="./assets/star.svg" alt="Stars" />
+								</div>
+								<button class="btn">Order now</button>
+							</div>
+						</div>
+					</div> -->
+          </div>
+          <span class="arrow-right" id="arrow-right">
+            <img src="./assets/arrow-forward.png" alt="Arrows" />
+          </span>
+        </div>
+      </section>
+      <section class="overlay" id="overlay">
+        <!-- <div class="menu-item" id="menu-item">
+				<img
+					class="close"
+					id="close"
+					src="./assets/close.png"
+					alt="Close icon"
+				/>
+				<div class="content">
+					<img src="./assets/menu-12.jpg" alt="Food Item" class="menu-pic" />
+					<div class="details">
+						<h2>Cheese and Charcuterie Board</h2>
+						<p>
+							Pizza slices are triangular or wedge-shaped portions of a round
+							pizza, carefully cut to serve as individual servings. Each slice
+							features a crispy or chewy crust that forms its outer edge,
+							providing a satisfying crunch or softness. The base is a layer of
+							dough, topped with a rich tomato sauce, which gives it a tangy
+							foundation. A generous layer of melted cheese blankets the slice,
+							offering gooey texture and flavor. Toppings like pepperoni,
+							mushrooms, olives, or vegetables add variety and personalization
+							to each piece. The aroma of freshly baked pizza slices is
+							irresistible, mingling the scents of herbs, cheese, and spices.
+							They are easy to hold, making them a perfect handheld meal or
+							snack. Pizza slices are versatile, fitting for casual gatherings,
+							parties, or a quick bite. Whether served piping hot or cold, they
+							deliver a satisfying burst of flavor in every bite.
+						</p>
+						<div class="actions">
+							<span class="price">$ 500</span>
+							<button id="order" class="btn btn-large">Order Now</button>
+						</div>
+					</div>
+				</div>
+			</div> -->
+      </section>
 
       <!-- Food Making -->
 
       <section class="about">
         <div class="about__img-box">
           <img
-            src="./img/burger__cut.png"
+            src="./assets/burger__cut.png"
             alt="preparation"
             class="about-img about-img1"
           />
           <img
-            src="./img/baking.jpg"
+            src="./assets/baking.jpg"
             alt="preparation"
             class="about-img about-img2"
           />
@@ -87,9 +159,10 @@
               environment, allowing the yeast to work its magic
             </span>
 
-             <span>
+            <span>
               <ion-icon name="checkmark-outline" class="checkmark"></ion-icon>
-              Simmering Fresh tomatoes, herbs, and spices are simmered together to create a flavorful sauce.
+              Simmering Fresh tomatoes, herbs, and spices are simmered together
+              to create a flavorful sauce.
             </span>
           </p>
 
@@ -99,26 +172,35 @@
 
       <section class="gallery">
         <div class="gallery__row">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
+          <img src="./assets/menu-5.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-6.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-7.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-8.jpg" alt="burgerBackground" />
         </div>
 
         <div class="gallery__text">
-            <h3>Our Photo Gallery</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio saepe assumenda reprehenderit corporis, consequuntur amet iure nisi harum laudantium omnis commodi aspernatur maiores non fugit ex sunt autem veniam minima?</p>
+          <h3>Our Photo Gallery</h3>
+          <p>
+            A quartet of culinary masterpieces awaits, each dish a symphony of
+            flavor and texture. From succulent steaks to velvety soups, every
+            bite is a journey for the senses. Imagine a plate piled high with
+            tender, slow-roasted short ribs, glazed with a rich, caramelized
+            sauce. Or perhaps a bowl of creamy lobster bisque, topped with a
+            swirl of fresh cream and a sprinkle of chives.
+          </p>
         </div>
 
         <div class="gallery__row">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
-            <img src="./img/burger__cut.png" alt="burgerBackground">
+          <img src="./assets/menu-1.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-2.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-3.jpg" alt="burgerBackground" />
+          <img src="./assets/menu-4.jpg" alt="burgerBackground" />
         </div>
       </section>
     </main>
 
+    <script src="data.js" type="module"></script>
+    <script src="index.js" type="module"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
